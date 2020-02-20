@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program that prints number from start of the array
+to desired stop value. Given array:
+var scores = [12, 45, 3, 22, 34, 50];
+(Hint: take stop value from user)
+E.g. if user gives 3 as input value print 12, 45, 3
+if user gives 34 as input value print 12, 45, 3, 22, 34 -->
+    <script>
+     var scores = [12,45,3,22,34,50];
+     var input = prompt("Please enter a stop point to stop from printing the array 12,45,3,22,34,50");
+     for(var i = 0 ; i <input ; i++)
+     {
+        document.write(scores[i] +",");
+     }
+    </script>
+</body>
+</html>

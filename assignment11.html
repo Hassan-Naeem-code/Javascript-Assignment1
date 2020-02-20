@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program to identify the largest & the smallest
+number in the given array.
+A = [24, 53, 78, 91, 12] -->
+    <script>
+     var A = [24,53,78,91,12];
+     var temp;
+     for(var i =0 ;i<5 ;i++)
+     {
+         for(var j = i+1 ; j <=5 ; j++)
+         {
+             if(A[i]>A[j])
+             {
+                 temp = A[i];
+                 A[i] = A[j];
+                 A[j] = temp;
+             }
+         }
+     }
+     for(var k=0;k<5;k++)
+     {
+         document.write("The largest Element is: "+A[k]);
+         document.write("<br>");
+     }
+     document.write("<br>");
+     document.write("The Smallest element is: "+A[0]);
+     document.write("<br>");
+     document.write("The Largest Element is: "+A[4]);
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program that will write out a wedge of stars. The user
+will enter the initial number of stars, and the program will write
+out lines of stars where each line has one few star than the
+previous line. Initial number of stars: 7
+*******
+******
+*****
+****
+***
+**
+* -->
+    <script>
+     var stars = 7;
+     for(var i = stars ; i>=0;i--)
+     {
+         for(var j = 0 ; j<=i ; j++)
+         {
+             document.write("*");
+         }
+         document.write("<br>");
+     }
+    </script>
+</body>
+</html>

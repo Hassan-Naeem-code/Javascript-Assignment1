@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program to calculate the product of the odd integers
+from 1 to 7. -->
+    <script>
+        var temp = 1;
+     for(var i = 1 ; i<=7 ; i+=2)
+     {
+         if(i%2!=0)
+         {
+             temp = temp * i;
+         }
+         else
+         {
+             continue;
+         }
+     }
+     document.write("The product of the odd Number Between 1-7 are: "+temp);
+    </script>
+</body>
+</html>

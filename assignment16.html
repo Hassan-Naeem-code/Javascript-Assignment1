@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Write a program to repeatedly print the value of the variable
+num which is input by user. Value should be decreasing by 0.5
+each time, as long as x Value remains positive. -->
+    <script>
+        var n;
+     var input = prompt("Please enter a number to proceed the printing task: ");
+     var input1 = parseFloat(input);
+     var counter = 0;
+     for(var i = input1 ; input1!=0 ; input1 = input1-0.5)
+     {
+         n = input1 + 0;
+         document.write(n+",");
+         --counter;
+     }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- You have an array
+A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+Write a program to enable “search by user input” in an array.
+After searching, prompt the user whether the given item is
+found in the list or not. Example: -->
+    <script>
+     var a = ["cake","apple pie","cookie","chips","patties"];
+     var input = prompt("Welcome to HK Bakers Order Something to see our services:");
+     if(input === a[0] || input === a[1] || input === a[2] || input === a[3] || input === a[4])
+     {
+          document.write(input+" is available at index "+a.indexOf(input));
+     }
+     else
+     {
+         document.write("Very Sorry!! Your order eatable item is not present in our bakery");
+     }
+    </script>
+</body>
+</html>
